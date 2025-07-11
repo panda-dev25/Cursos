@@ -1195,15 +1195,6 @@ body, html {
     margin-top: -32px;
   }
 }
-@media (max-width: 480px) {
-  .precos .etiqueta h3 {
-    font-size: 1rem;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    text-align: center;
-  }
-}
 
 @media (max-width: 768px) {
   .perguntas-frequentes {
