@@ -1195,6 +1195,30 @@ body, html {
     margin-top: -32px;
   }
 }
+@media (max-width: 480px) {
+  .precos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 30px 15px;
+  }
+
+  .etiqueta {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    word-wrap: break-word;
+  }
+
+  .etiqueta h3,
+  .etiqueta p {
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+}
 @media (max-width: 768px) {
   .perguntas-frequentes {
     padding: 20px 15px 0px;
