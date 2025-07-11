@@ -1195,6 +1195,11 @@ body, html {
     margin-top: -32px;
   }
 }
+@media (max-width: 768px) {
+  .conteudo-etiquetas {
+    position: relative;
+    top: - 30px;
+}
 
 @media (max-width: 768px) {
   .perguntas-frequentes {
